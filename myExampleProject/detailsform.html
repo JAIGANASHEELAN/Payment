@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/blackheart.png">
+    
+</head>
+<body>
+    <form action="">
+        <div id="total">
+            <caption>Your details</caption><br><br>
+            <div  class="divbox ">
+                <label for="name">Name </label>
+                <input type="text" id="name" placeholder="First and Last name">
+            </div>
+            
+            <div class="divbox ">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Example@domain.com">
+            </div>
+            <div class="divbox ">
+                <label for="phone">Phone</label>
+                <input type="text" placeholder="Eg: +3435434343">
+            </div>
+            <br>
+
+            <caption>Delivery Address</caption><br><br>
+            <div class="divbox ">
+                <label for="Address">Address</label>
+                <textarea name="" id="address" cols="30" rows="10"></textarea>
+            </div>
+            <div class="divbox ">
+               <label for="postcode">Post Code</label>
+               <input type="text" id="postcode" maxlength="6">
+
+            </div>
+          
+            <div class="divbox ">
+                <label for="country">Country</label>
+                <input type="text" id="country">
+            </div>
+            <br><br>
+
+            <caption>payment Details</caption>
+            <br><br>
+            <div class="divbox ">
+                <label for="card">Card Type</label><br>
+                <input type="radio" name="card" >VISA
+                <input type="radio" name="card" >AmEx
+                <input type="radio" name="card" >MasterCard
+            </div>
+            <div class="divbox ">
+                <label for="Cardnumber">Card Number</label>
+                <input type="text">
+            </div>
+            <div class="divbox ">
+                <label for="securitycode">Security Code</label>
+                <input type="text" id="security code">
+            </div>
+            <div class="divbox ">
+                <label for="Card name">Card Name</label>
+                <input type="text" id="Card name" placeholder="Exact name as Card">
+            </div>
+
+
+            <br>
+            <input type="submit" value="BUY IT!" style="background-color: black; color: white; border-radius: 5px; padding: 5px;" >
+        </div>
+
+    </form>
+    
+</body>
+</html>

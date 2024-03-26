@@ -1,0 +1,32 @@
+body{
+    font-family:cursive;
+    background-image: url(img/butterfly.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: 100% 100%;
+    backdrop-filter: blur(5px);
+   
+    }
+
+#total{
+    margin-left: 40%;
+    justify-content: center;
+    text-align: center;
+    display:inline-block;
+    background-color: rgba(176, 170, 255, 0.37);
+    border: px solid;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.divbox{
+    margin:20px;
+    background-color: rgba(145, 128, 187, 0.521);
+    padding: 10px;
+    border: 3px solid rgb(235, 247, 235);
+    border-radius: 15px;
+}
+input,textarea{
+    border-radius: 5px;
+}
